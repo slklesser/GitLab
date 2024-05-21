@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    background-color: white; /* White background */
+    color: blue; /* Blue text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: red; /* Red background for the header */
+    color: white; /* White text color for the header */
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+blockquote {
+    border-left: 10px solid red; /* Red border for blockquotes */
+    margin: 20px 40px;
+    padding: 10px 20px;
+    background-color: #f9f9f9; /* Light gray background for blockquotes */
+    color: blue; /* Blue text color for blockquotes */
+    font-style: italic;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 2em;
+    color: red; /* Red color for the quotation mark */
+    vertical-align: -0.4em;
+}
+
+blockquote::after {
+    content: "”";
+    font-size: 2em;
+    color: red; /* Red color for the quotation mark */
+    vertical-align: -0.4em;
+}
